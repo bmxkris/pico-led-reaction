@@ -18,8 +18,6 @@ game_counter = {
     '2': 0
 }
 
-led = digitalio.DigitalInOut(board.LED)
-led.direction = digitalio.Direction.OUTPUT
 
 def create_button(gpio_pin):
     pin = digitalio.DigitalInOut(gpio_pin)
